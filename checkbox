@@ -16,3 +16,18 @@
 <span class="checkbox-wrap"><input type="checkbox" id="sm-openpc-startup" class="set-checkbox" /></span>
 
 */
+/*
+/* checkbox style */
+.checkbox-wrap{width:19px;height:19px;background:url(../images/checked-select-icon.png) no-repeat;display:inline-block;}
+.checkbox-wrap:hover{background-position:-19px 0;}
+.checkbox-wrap:active{background-position:-38px 0;}
+.checkbox-wrap:visited{background-position:-57px 0;}
+
+.cbkw-on{background-position:0 -19px;}
+.cbkw-on:hover{background-position:-19px -19px;}
+.cbkw-on:active{background-position:-38px -19px;}
+.cbkw-on:visited{background-position:-57px -19px;}
+
+.checkbox-wrap input[type=checkbox]{opacity:0;width:19px;height:19px;vertical-align:middle;}
+label.checkbox-label{}
+*/
