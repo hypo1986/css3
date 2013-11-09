@@ -9,3 +9,10 @@
 			meEl.removeClass('cbkw-on');
 		}
 	});
+
+
+/* html :
+
+<span class="checkbox-wrap"><input type="checkbox" id="sm-openpc-startup" class="set-checkbox" /></span>
+
+*/
