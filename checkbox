@@ -1,0 +1,11 @@
+//checkbox
+	var checkboxWrap=$('.checkbox-wrap');
+	checkboxWrap.click(function(){
+		var meEl=$(this);
+		var checkboxEl=meEl.find('input[type=checkbox]');
+		if(checkboxEl.is(':checked')){
+			meEl.addClass('cbkw-on');
+		}else{
+			meEl.removeClass('cbkw-on');
+		}
+	});
